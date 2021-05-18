@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-        <title>Admin Dashboard - Change Password</title>
+        <title>Admin Dashboard - Create SME</title>
         <style>
             body {
             font-family: "Lato", sans-serif;
@@ -98,12 +98,12 @@
             <div class="text-left pl-5 pt-3 pr-5">
                 <p>Homepage</p>
                 <p>Cohorts</p>
-                <p>SMEs</p>
+                <p><strong>SMEs</strong></p>
                 <p>Mentors</p>
                 <p>Coaches</p>
                 <p>Trainer</p>
                 <hr>
-                <p><strong>Change Password</strong></p>
+                <p>Change Password</p>
                 <p>My Profile</p>
             </div>
             <div class="text-center p-3 myFooter" style="background-color: rgba(0, 0, 0, 0.2);">
@@ -123,23 +123,26 @@
                 <a href="#">Home</a> /
               </span>
               <span style="font-size: 15px;">
-                Change Password
+                Create SME
               </span>
             </small>
             
             <div class="p-5 mt-3" style="background-color: #C4C4C4;">
                 <form>
-                    <label for="exampleInputEmail1" style="font-size: 15px;">Old Password</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <label for="exampleInputEmail1" style="font-size: 15px;">Employee ID</label>
+                    <input type="number" class="form-control" name="empID" aria-describedby="emailHelp" placeholder="Enter Employee ID">
 
-                    <label for="exampleInputEmail1" style="font-size: 15px;">New Password</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <label for="exampleInputEmail1" style="font-size: 15px;">First Name</label>
+                    <input type="text" class="form-control" name="fname" aria-describedby="emailHelp" placeholder="Enter First Name">
 
-                    <label for="exampleInputEmail1" style="font-size: 15px;">Confirm New Password</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <label for="exampleInputEmail1" style="font-size: 15px;">First Name</label>
+                    <input type="text" class="form-control" name="lname" aria-describedby="emailHelp" placeholder="Enter Last Name">
+
+                    <label for="exampleInputEmail1" style="font-size: 15px;">First Name</label>
+                    <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter Email address">
                     
                     <div class="text-right mt-3">
-                        <button type="submit" class="btn btn-primary">Change Password</button>
+                        <button type="submit" class="btn btn-primary">Create SME</button>
                     </div>
                 </form>
             </div>
